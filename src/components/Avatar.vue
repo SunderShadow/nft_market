@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <header></header>
+  <img src="" alt="">
 </template>
 
 <style scoped>

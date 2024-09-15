@@ -1,17 +1,20 @@
 <script setup lang="ts">
 
 import Sidebar from "@/components/Sidebar.vue";
-import Header from "@/components/HeaderComponent.vue";
-import HeaderComponent from "@/components/HeaderComponent.vue";
+import Header from "@/components/Header/index.vue";
 </script>
 
 <template>
   <div class="app_container">
     <Sidebar/>
-    <main>
-      <HeaderComponent/>
-      <RouterView />
-    </main>
+    <div class="app_container-main">
+      <div class="header">
+        <Header/>
+      </div>
+      <main>
+        <RouterView />
+      </main>
+    </div>
   </div>
 </template>
 <style lang="scss" scoped>
@@ -21,7 +24,17 @@ import HeaderComponent from "@/components/HeaderComponent.vue";
   min-height: 100vh;
 }
 
-main {
+.app_container-main {
+  position: relative;
   flex-grow: 1;
+  padding: 0 70px;
+}
+
+.header {
+  padding-top: 30px;
+}
+
+main {
+  margin-top: 3rem;
 }
 </style>
