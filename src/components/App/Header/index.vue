@@ -25,7 +25,11 @@ header {
 
 .side {
   display: flex;
-  gap: 1rem;
+  gap: 1.25rem;
   align-items: center;
+
+  img {
+    margin-left: 1rem;
+  }
 }
 </style>
