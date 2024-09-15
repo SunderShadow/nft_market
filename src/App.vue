@@ -1,15 +1,14 @@
 <script setup lang="ts">
 
 import Sidebar from "@/components/Sidebar.vue";
-import Header from "@/components/HeaderComponent.vue";
-import HeaderComponent from "@/components/HeaderComponent.vue";
+import Header from "@/components/Header/index.vue";
 </script>
 
 <template>
   <div class="app_container">
     <Sidebar/>
     <main>
-      <HeaderComponent/>
+      <Header/>
       <RouterView />
     </main>
   </div>
