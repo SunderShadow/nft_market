@@ -34,7 +34,7 @@ import LogoutIcon    from "@/components/icons/Logout.vue"
 </template>
 
 <style lang="scss" scoped>
-@use "@/cfg.scss";
+@use "@/cfg";
 
 aside {
   display: flex;

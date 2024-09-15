@@ -11,7 +11,7 @@ import MagnifierIcon from "@/components/icons/Magnifier.vue";
 </template>
 
 <style lang="scss" scoped>
-@use "@/cfg.scss";
+@use "@/cfg";
 
 .search {
   display: flex;
