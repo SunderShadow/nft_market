@@ -1,0 +1,18 @@
+@use "@/cfg.scss";
+
+button {
+  width: 100%;
+  border: none;
+  border-radius: 1.25em;
+
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+  font: inherit;
+  font-weight: 600;
+
+  color: inherit;
+
+  cursor: pointer;
+  background: cfg.$main-color;
+}
