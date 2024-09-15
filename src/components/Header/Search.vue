@@ -30,6 +30,7 @@ import MagnifierIcon from "@/components/icons/Magnifier.vue";
 
     font: inherit;
     font-size: 1.5rem;
+    color: inherit;
   }
 }
 </style>
