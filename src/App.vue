@@ -1,13 +1,27 @@
 <script setup lang="ts">
 
+import Sidebar from "@/components/Sidebar.vue";
+import Header from "@/components/HeaderComponent.vue";
+import HeaderComponent from "@/components/HeaderComponent.vue";
 </script>
 
 <template>
-  <header>
-
-  </header>
-  <RouterView />
+  <div class="app_container">
+    <Sidebar/>
+    <main>
+      <HeaderComponent/>
+      <RouterView />
+    </main>
+  </div>
 </template>
-<style lang="scss">
+<style lang="scss" scoped>
 
+.app_container {
+  display: flex;
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
 </style>
